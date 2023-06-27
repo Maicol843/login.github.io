@@ -9,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(./Assets/Purmamarca.jpg);
+    background-image: url(../Assets/Purmamarca.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
