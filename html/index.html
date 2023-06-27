@@ -8,7 +8,61 @@
     <title>Login</title>
 </head>
 <body>
-    
+    <div class="container-form sign-up">
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido a mi Pagina Personal</h2>
+                <p>Si ya tienes una cuenta, por favor inicia sesión aquí</p>
+                <button class="sign-up-btn">Iniciar sesión</button>
+            </div>
+            <form class="formulario">
+                <h2 class="create-account">Crear una cuenta</h2>
+                <div class="iconos">
+                    <div class="border-icon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAiFJREFUSEuVlotRG0EQRN9kcBkIR2BlYMgAR2ARAXIEFhGAMpAjgAwQEQAZiAwggnHN3t7u7M82V6Wq1TGaT3dPLyKAYk8+ha/dV4Kgn4yvE3XqpIK9Q4j3PyrP9q3zjKqU7/+nF1cghjcdcQ58A9bxMwEv9hHYK5wSCJ1BBgXCUBPCLSqbhaUSzdTQA8qVwPvMpX+Msz5Ea9B74GxMeJTFXGcvsG0LzDF10QnlOScvkH6KwQbZ8vwGNll1UWkO8brJA8iPDIt8gFqCh6qVXYRxa7ptqZuj6wmM0EdX8QMNJBupeVdGqizhDz3OBfIPrKtf9iIu1PdO5zHNaOn+vgfHKMllZKtT77jFZD7bZfiZJy4gCh2dFFaxRSPU4Knx7YnFgSM3gu4W+3EQhVZsaVYxZSxQj6zaelexpDegBrUjOf/9qGFrU9LenhyrkSaQr4lRpeCtThBJThMbnneNOMqh7lCuXcwXgdPifwOZJoW8AxeetEp15k+PIFPk/Q3kLFt6b5NDx3LthGJFdgj7aqE2ArdqnpUBv0Ll0BYojdSswpxyVchljrGFs4JBXRV0ryqs7W7wl5IMPN1GN2tYJFvnq9O/Cnquc3G3N2M3tXZt9F0Fl9f70qmZ3TZMFg0pTJDOZclep2uBS52t285TvGRsow/4C8dpf4F3dB8MLndPVsNB6rpwksZm/+GUOX7AXuVcgwkGsxb/PZRkuvvDTQ9/ACmQ2iEcj9HQAAAAAElFTkSuQmCC"/>
+                    </div>
+                    <div class="border-icon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAdtJREFUSEuNlYFRwzAMRZ8mgBE6Qjeg3YQRYIKmE3BMRDoBsEFHKBOIs6M4sq009V2viSPrS/pfspCWACoIiuYNW3nfP/sNO+btF2flUDpRW3ZO1xx1noONFPTKCnCaWOpsfCWWtEEasxF4CTG7MgYA08Hk4+ir7P0VCuLja067/VKZqkQCWpHc8VsLQeBX4WYs7RGeTBTmt+fA/JujNRUJF1ReQa9TDNlwRHhJasySdMF5mUQJtLr9Q9ihcmtkbfxtAZTvDdaSzQXhYKXYAx8WQXp+rgK33EoGaxz4zhP0U+HN9gaEU9CdDQcWXQbwGcTZnBEGc1oAmmNSBkDjQye+yvQwvrL5O/ADJGKvZrED0i+tr4asQn9AcjiXjqiMVZfOepnCLQq0wVb+wkZr5kJ6Td2ZlFJ4dCraC3w7WSwyXcSRnx6Rac0BnLxK7jZap6J4MhhA/jhgADkbH22ZXb5AqY7b4+YMDBZ1AQgujqnK2yWqEQXOmgHyMpnWo0VAZrlPACUdNRLW0shOgwx8GVxtktzv9kFdvvmtAAg6qOdgkV6joqW5RrULx2fmtZ8zsE4WMAA3gZSLwGGpShzlQ7vdNPc4biIEt/q2lB6KgPnCuctp4CoYgp0Ls/kHH6nZJNVX0L0AAAAASUVORK5CYII="/>
+                    </div>
+                    <div class="border-icon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAhpJREFUSEt9lm15HDEMhF8hyEEIg4ZBLgxSBCmEMgmFlMEVQW4ZHIRCuCBwH1myLXu18Z/4/DWa0UgbQYcAxf/UeVxI1uulefiNdN0X50cHcHLVgxCKxjXGwdFjgLgTL+9iOd7Unf6MUK4FnhMF0qVdwMbsCuUlyt5zYJn4bsyRDomEZS72kCDjSp01gC/g4lCvwMNkhMQZSz4UsRsniNQQ5I9QfnkUH1DeDp2WJ7lLHxjUk87AASyKD+AtEy63Zvd55xm90gDuQrn4D5XoNKzQokhsPRvWcrD4vQF8CeVm9SZPUB6Azd3wiHCicBH4V+AV5Meo1JbdXQ6qE4oX8QacTfdqO7WuWEQ1NxeQezDdb4H35hA9GOYT+cZgg3K2nRlg6SnRIPeibrMgFoCRrQa8CZzdRcbArK7jhPCp0gnlp7Gp9GKRLi4a+WqFYACJRJWZAah+f6k5qOOK8OxBjDpYrJZIxBVtH4OBSvfpj1quJgaLTWN3DnWwCcUligD1tDOosmzFAXYMgvmTSibkwAHMozpSBhWgNsrey0OriEm2fWNg637RbOruGhIJZ9e952CyaS4Rd+Dm/efJnXPtLgJd02215s2Z2Tn3djd/nuTYwWMnGb3AAdxMsV1nlTxQuo61/XY52zwCHH0btKWYs8b3IG+LIV/j23t01N8b/zA04uOC01ySMotyLN13Ma5v7H7vLkfpuuSZjPAfJ3UNK6MACWwAAAAASUVORK5CYII="/>
+                    </div>
+                </div>
+                <p class="cuenta-gratis">Crear una nueva cuenta gratis</p>
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Contraseña">
+                <input type="button" value="Registrarse">
+            </form>
+        </div>
+    </div>
+    <div class="contenido-form sign-in">
+        <form class="formulario">
+            <h2 class="create-account">Iniciar sesión</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAiFJREFUSEuVlotRG0EQRN9kcBkIR2BlYMgAR2ARAXIEFhGAMpAjgAwQEQAZiAwggnHN3t7u7M82V6Wq1TGaT3dPLyKAYk8+ha/dV4Kgn4yvE3XqpIK9Q4j3PyrP9q3zjKqU7/+nF1cghjcdcQ58A9bxMwEv9hHYK5wSCJ1BBgXCUBPCLSqbhaUSzdTQA8qVwPvMpX+Msz5Ea9B74GxMeJTFXGcvsG0LzDF10QnlOScvkH6KwQbZ8vwGNll1UWkO8brJA8iPDIt8gFqCh6qVXYRxa7ptqZuj6wmM0EdX8QMNJBupeVdGqizhDz3OBfIPrKtf9iIu1PdO5zHNaOn+vgfHKMllZKtT77jFZD7bZfiZJy4gCh2dFFaxRSPU4Knx7YnFgSM3gu4W+3EQhVZsaVYxZSxQj6zaelexpDegBrUjOf/9qGFrU9LenhyrkSaQr4lRpeCtThBJThMbnneNOMqh7lCuXcwXgdPifwOZJoW8AxeetEp15k+PIFPk/Q3kLFt6b5NDx3LthGJFdgj7aqE2ArdqnpUBv0Ll0BYojdSswpxyVchljrGFs4JBXRV0ryqs7W7wl5IMPN1GN2tYJFvnq9O/Cnquc3G3N2M3tXZt9F0Fl9f70qmZ3TZMFg0pTJDOZclep2uBS52t285TvGRsow/4C8dpf4F3dB8MLndPVsNB6rpwksZm/+GUOX7AXuVcgwkGsxb/PZRkuvvDTQ9/ACmQ2iEcj9HQAAAAAElFTkSuQmCC"/>
+                </div>
+                <div class="border-icon">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAdtJREFUSEuNlYFRwzAMRZ8mgBE6Qjeg3YQRYIKmE3BMRDoBsEFHKBOIs6M4sq009V2viSPrS/pfspCWACoIiuYNW3nfP/sNO+btF2flUDpRW3ZO1xx1noONFPTKCnCaWOpsfCWWtEEasxF4CTG7MgYA08Hk4+ir7P0VCuLja067/VKZqkQCWpHc8VsLQeBX4WYs7RGeTBTmt+fA/JujNRUJF1ReQa9TDNlwRHhJasySdMF5mUQJtLr9Q9ihcmtkbfxtAZTvDdaSzQXhYKXYAx8WQXp+rgK33EoGaxz4zhP0U+HN9gaEU9CdDQcWXQbwGcTZnBEGc1oAmmNSBkDjQye+yvQwvrL5O/ADJGKvZrED0i+tr4asQn9AcjiXjqiMVZfOepnCLQq0wVb+wkZr5kJ6Td2ZlFJ4dCraC3w7WSwyXcSRnx6Rac0BnLxK7jZap6J4MhhA/jhgADkbH22ZXb5AqY7b4+YMDBZ1AQgujqnK2yWqEQXOmgHyMpnWo0VAZrlPACUdNRLW0shOgwx8GVxtktzv9kFdvvmtAAg6qOdgkV6joqW5RrULx2fmtZ8zsE4WMAA3gZSLwGGpShzlQ7vdNPc4biIEt/q2lB6KgPnCuctp4CoYgp0Ls/kHH6nZJNVX0L0AAAAASUVORK5CYII="/>
+                </div>
+                <div class="border-icon">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAhpJREFUSEt9lm15HDEMhF8hyEEIg4ZBLgxSBCmEMgmFlMEVQW4ZHIRCuCBwH1myLXu18Z/4/DWa0UgbQYcAxf/UeVxI1uulefiNdN0X50cHcHLVgxCKxjXGwdFjgLgTL+9iOd7Unf6MUK4FnhMF0qVdwMbsCuUlyt5zYJn4bsyRDomEZS72kCDjSp01gC/g4lCvwMNkhMQZSz4UsRsniNQQ5I9QfnkUH1DeDp2WJ7lLHxjUk87AASyKD+AtEy63Zvd55xm90gDuQrn4D5XoNKzQokhsPRvWcrD4vQF8CeVm9SZPUB6Azd3wiHCicBH4V+AV5Meo1JbdXQ6qE4oX8QacTfdqO7WuWEQ1NxeQezDdb4H35hA9GOYT+cZgg3K2nRlg6SnRIPeibrMgFoCRrQa8CZzdRcbArK7jhPCp0gnlp7Gp9GKRLi4a+WqFYACJRJWZAah+f6k5qOOK8OxBjDpYrJZIxBVtH4OBSvfpj1quJgaLTWN3DnWwCcUligD1tDOosmzFAXYMgvmTSibkwAHMozpSBhWgNsrey0OriEm2fWNg637RbOruGhIJZ9e952CyaS4Rd+Dm/efJnXPtLgJd02215s2Z2Tn3djd/nuTYwWMnGb3AAdxMsV1nlTxQuo61/XY52zwCHH0btKWYs8b3IG+LIV/j23t01N8b/zA04uOC01ySMotyLN13Ma5v7H7vLkfpuuSZjPAfJ3UNK6MACWwAAAAASUVORK5CYII="/>
+                </div>
+            </div>
+            <p class="cuenta-gratis">¿Aún no tienes cuenta?</p>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Contraseña">
+            <input type="button" value="Iniciar sesión">
+        </form>
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido de nuevo</h2>
+                <p>Si aun no tienes una cuenta, por favor registrarse aquí</p>
+                <button class="sign-in-btn">Registrarse</button>
+            </div>
+        </div>
+    </div>
 </body>
 <!--JavaScript-->
 <script src="../js/index.js"></script>
